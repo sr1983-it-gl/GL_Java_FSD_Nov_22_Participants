@@ -6,6 +6,9 @@ public class WhileLoopSpotError1 {
 		
 		while (statusCheck) {
 			System.out.println("inside while...");
+			
+			//
+//			statusCheck = false;
 		}
 		System.out.println("after while...");
 	}
